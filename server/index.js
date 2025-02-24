@@ -2,8 +2,7 @@ const express = require("express");
 const mongoose = require("mongoose");
 const cors = require("cors");
 const dotenv = require("dotenv");
-const investmentRoutes = require("./routes/transactions");
-const profileRouter = require('./routes/profile');
+
 
 dotenv.config();
 
@@ -20,8 +19,6 @@ app.use(cors({
 app.use(express.json());
 
 
-app.use('/api/profile', profileRouter);
-app.use("/api/investments", investmentRoutes);
 
 app.use((req, res, next) => {
   console.log(`${req.method} ${req.originalUrl}`);
