@@ -43,7 +43,7 @@ export default function NewArrivals() {
             Women&apos;s
           </Button>
         </div>
-        <div className=" grid grid-cols-3 pt-10 gap-10">
+        <div className=" grid-cols-1 grid md:grid-cols-3 pt-10 md:gap-10 gap-5">
           <ArrivalCard></ArrivalCard>
           <ArrivalCard></ArrivalCard>
           <ArrivalCard></ArrivalCard>

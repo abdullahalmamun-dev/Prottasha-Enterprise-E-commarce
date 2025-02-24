@@ -60,7 +60,7 @@ export default function ArrivalCard() {
             </div>
             <p className="text-[#484848] text-xs px-4 py-4">(4.1k) Customer Reviews</p>
             <div className="flex justify-between items-center px-4 pb-5">
-                <p className="text-[#484848] text-2xl">Tk.995.50</p>
+                <p className="text-[#484848] text-2xl">Tk. 995.50</p>
                 <p className="text-[#FF4646]">Almost Sold Out</p>
             </div>
           </div>
