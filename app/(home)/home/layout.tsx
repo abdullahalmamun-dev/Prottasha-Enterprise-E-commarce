@@ -1,3 +1,9 @@
+// _app.tsx or layout.tsx
+import "@fortawesome/fontawesome-svg-core/styles.css";
+import { config } from "@fortawesome/fontawesome-svg-core";
+
+// Disable auto CSS insertion (Next.js handles CSS differently)
+config.autoAddCss = false;
 
 export default function DashboardHome({
   children,
