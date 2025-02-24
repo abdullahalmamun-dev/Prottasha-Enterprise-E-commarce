@@ -57,7 +57,7 @@ export function Navbar() {
               className="w-8 h-8"
             />
             <div className={jost.className}>
-              <h1 className="ml-2 text-[#001A66] font-bold text-4xl">PROTTASHA</h1>
+              <h1 className="ml-2 text-[#001A66] font-bold text-3xl md:text-4xl">PROTTASHA</h1>
             </div>
           </div>
 
