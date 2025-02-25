@@ -1,10 +1,10 @@
 "use client";
 
 import Image from "next/image";
-import banner1 from "../../../../../src/Assets/banner1.png";
-import banner2 from "../../../../../src/Assets/banner2.png";
-import banner3 from "../../../../../src/Assets/banner3.png";
-import banner4 from "../../../../../src/Assets/banner4.png";
+import banner1 from "../../../../src/Assets/banner1.png";
+import banner2 from "../../../../src/Assets/banner2.png";
+import banner3 from "../../../../src/Assets/banner3.png";
+import banner4 from "../../../../src/Assets/banner4.png";
 import Link from "next/link";
 import { Poppins } from "next/font/google";
 

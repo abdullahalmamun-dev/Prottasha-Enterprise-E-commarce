@@ -1,6 +1,6 @@
 "use client";
 
-import { Banner } from "./shared/banner/Banner";
+import { Banner } from "../components/banner/Banner";
 import DealsoftheMonth from "./shared/deals/DealsoftheMonth";
 import { Navbar } from "../components/navbar/Navbar";
 import NewArrivals from "./shared/New Arrivals/newArrivals";
