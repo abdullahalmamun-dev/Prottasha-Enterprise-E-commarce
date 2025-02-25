@@ -6,6 +6,7 @@ import { Navbar } from "../components/navbar/Navbar";
 import NewArrivals from "./shared/New Arrivals/newArrivals";
 import WhyChooseUs from "./shared/whychooseUs/whychooseUs";
 import Footer from "../components/footer/Footer";
+import NewsLetter from "./shared/newsletter/NewsLetter";
 
 export default function Home() {
   return <div className="h-full p-4 bg-white">
@@ -15,6 +16,7 @@ export default function Home() {
 
     <NewArrivals></NewArrivals>
     {/* <WhyChooseUs></WhyChooseUs> */}
+    <NewsLetter></NewsLetter>
     <Footer></Footer>
   </div>;
 }
