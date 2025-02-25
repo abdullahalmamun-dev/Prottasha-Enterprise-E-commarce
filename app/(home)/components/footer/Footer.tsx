@@ -22,9 +22,9 @@ export default function Footer() {
   ];
 
   return (
-    <div className="h-full md:p-4 bg-white">
+    <div className="h-full md:p-4 bg-white max-w-screen-xl mx-auto">
       <nav
-        className={`sticky top-0 z-50 bg-white transition-shadow duration-300 py-10`}
+        className={`sticky top-0 z-50 bg-white transition-shadow duration-300 py-10 `}
       >
         <div className="mx-auto md:px-4  md:max-w-screen-xl">
           <div className="grid  md:flex justify-center md:justify-between md:items-center md:h-16">
