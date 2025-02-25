@@ -59,7 +59,7 @@ export default function SignUp() {
                   name="first-name"
                   required
                   placeholder="Enter your first name"
-                  className="mt-1 block w-full px-4 py-2 border rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm"
+                  className="mt-1 block w-full px-4 py-2 bg-white border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm"
                 />
               </div>
 
@@ -67,7 +67,7 @@ export default function SignUp() {
               <div>
                 <label
                   htmlFor="last-name"
-                  className="block text-sm font-medium text-gray-700"
+                  className="block text-sm  font-medium text-gray-700"
                 >
                   Last Name
                 </label>
@@ -77,7 +77,7 @@ export default function SignUp() {
                   name="last-name"
                   required
                   placeholder="Enter your last name"
-                  className="mt-1 block w-full px-4 py-2 border rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm"
+                  className="mt-1 block w-full px-4 py-2 bg-white border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm"
                 />
               </div>
 
@@ -95,7 +95,7 @@ export default function SignUp() {
                   name="email"
                   required
                   placeholder="Enter your email"
-                  className="mt-1 block w-full px-4 py-2 border rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm"
+                  className="mt-1 block w-full bg-white px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm"
                 />
               </div>
 
@@ -113,7 +113,7 @@ export default function SignUp() {
                   name="password"
                   required
                   placeholder="Enter your password"
-                  className="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm"
+                  className="mt-1 block w-full bg-white px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm"
                 />
               </div>
 
@@ -131,7 +131,7 @@ export default function SignUp() {
                   name="confirm-password"
                   required
                   placeholder="Confirm your password"
-                  className="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm"
+                  className="mt-1 block bg-white w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm"
                 />
               </div>
 
